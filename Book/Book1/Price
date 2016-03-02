@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script> 
+	var price = 28.99;
+	var discount = 10;
+	var total = price - (price * (discount/100));
+	
+	if (total > 25) {freeShipping() ;
+	}
+	
+	
+</script>
+</body>
+</html>
