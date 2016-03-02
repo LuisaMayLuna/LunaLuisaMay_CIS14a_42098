@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script> 
+	var dog = {name: "Rover", weight: 35};
+	
+	if (dog.weight > 30) {alert ("WOOF WOOF");
+	} else {
+		alert("woof woof");
+	}
+	
+	
+	
+	
+	
+</script>
+</body>
+</html>
