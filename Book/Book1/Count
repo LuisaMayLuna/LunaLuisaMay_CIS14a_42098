@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script> 
+	var count = 10;
+	while (count > 0) {juggle() ;
+	count = count - 1; }
+</script>
+</body>
+</html>
