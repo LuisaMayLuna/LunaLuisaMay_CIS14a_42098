@@ -1,1 +1,15 @@
-Test
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script> 
+	var circleRadius = 20;
+	var circleArea = Math.PI * (circleRadius * circleRadius);
+</script>
+</body>
+</html>
+
