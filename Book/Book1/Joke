@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+//Test for jokes
+var joke = "Javascript walked into a bar....";
+var toldJoke = false;
+var punchline = "Better watch out for those semi-colons.";
+var percentage = 20;
+var result;
+
+if (toldjoke == true) {
+	alert($punchline);
+} else {
+	alert(joke);
+	}
+	
+	</script>
+
+</body>
+</html>
