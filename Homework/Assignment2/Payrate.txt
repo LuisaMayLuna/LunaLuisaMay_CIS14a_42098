@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+   //Place your javascript functions here
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+	//Define the knows for the problem at hand
+	var pay_rate=10;//Per hour rate $
+	var hours=30;//Number hours worked in the week
+	//Calculate a paycheck
+	var pay_check=pay_rate*hours;//Pay check in $'s
+	if(hours>40){
+		pay_check+=0.5*pay_rate*(hours-40);
+	}
+	//Output the result
+	document.write("<h1>My Paycheck is = $"+pay_check+"</h1>");
+</script>
+</body>
+</html>
+
+
+
