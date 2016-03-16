@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+   //Place your javascript functions here
+</script>
+</head>
+
+<body>
+<table width="200" border="1">
+<script type="text/javascript">
+	document.write("<tr><td></td>");
+	for(var pay_rate=10;pay_rate<=50;pay_rate+=5){
+		document.write("<td> $"+pay_rate+"/hr</td>");
+	}
+	document.write("</tr>");
+	//Loop through all sorts of hours
+	for(var hours=1;hours<=80;hours++){
+		//Define the knows for the problem at hand
+		document.write("<tr><td>"+hours+"hrs</td>");
+		for(var pay_rate=10;pay_rate<=50;pay_rate+=5){//Per hour rate $
+			//Calculate a paycheck
+			var pay_check=pay_rate*hours;//Pay check in $'s
+			if(hours>40){
+				pay_check+=0.5*pay_rate*(hours-40);
+			}
+			//Output the result
+			document.write("<td>"+pay_check+"</td>");
+		}
+		document.write("</tr>");
+	}
+</script>
+</table>
+</body>
+</html>
