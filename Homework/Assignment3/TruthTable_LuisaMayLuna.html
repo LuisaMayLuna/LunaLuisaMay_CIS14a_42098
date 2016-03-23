@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Truth Table</title>
+    </head>
+    
+    <body bgcolor="#FFF8DC">
+    	<h1><center>TRUTH TABLE</center></h1>
+		<table width="100%" border="20" CELLPADDING="10" CELLSPACING="3" BORDERCOLOR="#463E3F" bgcolor="#FFDFB8">
+			<tr bgcolor="#E0FFFF">
+				<th colspan="2"></th>
+				<th colspan="2">NOT</th>
+				<th>AND</th>
+				<th>OR</th>
+				<th>XOR</th>
+				<th>Y</th>
+				<th>X</th>
+				<th colspan="4">DeMORGAN's LAW</th>
+			</tr>
+			<tr>
+				<th>X</th>
+				<th>Y</th>
+				<th>!X</th>
+				<th>!Y</th>
+				<th>X&&Y</th>
+				<th>X||Y</th>
+				<th>X^Y</th>
+				<th>X^Y^X</th>
+				<th>X^Y^Y</th>
+				<th>!(X&&Y)</th>
+				<th>!X||!Y</th>
+				<th>!(X||Y)</th>
+				<th>!X&&!Y</th>
+			</tr>
+            
+			<script type="text/javascript">
+                var x=true, y=true;
+				document.write("<tr>");
+                document.write("<td>"+(x?'T':'F')+"</td>");
+                document.write("<td>"+(y?'T':'F')+"</td>");
+                document.write("<td>"+(!x?'T':'F')+"</td>");
+                document.write("<td>"+(!y?'T':'F')+"</td>");
+                document.write("<td>"+((x&&y)?'T':'F')+"</td>");
+                document.write("<td>"+((x||y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^x)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x&&y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x||!y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x||y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x&&!y)?'T':'F')+"</td>");
+				document.write("</tr>");
+                        
+				var y=false;
+				document.write("<tr>");
+                document.write("<td>"+(x?'T':'F')+"</td>");
+                document.write("<td>"+(y?'T':'F')+"</td>");
+                document.write("<td>"+(!x?'T':'F')+"</td>");
+                document.write("<td>"+(!y?'T':'F')+"</td>");
+                document.write("<td>"+((x&&y)?'T':'F')+"</td>");
+                document.write("<td>"+((x||y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^x)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x&&y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x||!y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x||y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x&&!y)?'T':'F')+"</td>");
+				document.write("</tr>");
+				
+				var x=false, y=true;
+				document.write("<tr>");
+                document.write("<td>"+(x?'T':'F')+"</td>");
+                document.write("<td>"+(y?'T':'F')+"</td>");
+                document.write("<td>"+(!x?'T':'F')+"</td>");
+                document.write("<td>"+(!y?'T':'F')+"</td>");
+                document.write("<td>"+((x&&y)?'T':'F')+"</td>");
+                document.write("<td>"+((x||y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^x)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x&&y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x||!y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x||y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x&&!y)?'T':'F')+"</td>");
+				document.write("</tr>");
+				
+				var y=false;
+				document.write("<tr>");
+                document.write("<td>"+(x?'T':'F')+"</td>");
+                document.write("<td>"+(y?'T':'F')+"</td>");
+                document.write("<td>"+(!x?'T':'F')+"</td>");
+                document.write("<td>"+(!y?'T':'F')+"</td>");
+                document.write("<td>"+((x&&y)?'T':'F')+"</td>");
+                document.write("<td>"+((x||y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^x)?'T':'F')+"</td>");
+				document.write("<td>"+((x^y^y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x&&y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x||!y)?'T':'F')+"</td>");
+				document.write("<td>"+((!(x||y))?'T':'F')+"</td>");
+				document.write("<td>"+((!x&&!y)?'T':'F')+"</td>");
+				document.write("</tr>");
+            </script>
+		</table>
+    </body>
+</html>
