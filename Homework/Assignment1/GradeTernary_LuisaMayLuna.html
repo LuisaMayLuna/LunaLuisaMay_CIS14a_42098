@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <title>Grade Calculator</title>
+     <meta name="generator" content="CSE HTML Validator (http://www.htmlvalidator.com/)">
+ </head>
+
+ <body>
+     <script>
+     	//Declare Variables
+     	var tstScr = 70;	//Test Score
+     	var grade;			//Tentative grade
+     	
+     	//Calculate
+     	grade=(tstScr < 70)?"Fail":"Pass";
+     	
+     	var str="<h1> Test Score = " + tstScr + "</h1>";
+      	str += "<h1>Grade = " + grade + "</h1>";
+      	document.write(str);
+     </script>
+
+ </body>
+</html>
+
+
