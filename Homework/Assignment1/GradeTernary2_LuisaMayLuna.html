@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <title></title>
+     <meta name="generator" content="CSE HTML Validator (http://www.htmlvalidator.com/)">
+ </head>
+
+ <body>
+ 
+ <Center>
+ What was your test score?<br>
+ <input type="text" id="score" />
+ <button onclick="submit();" href="javascript:;">Submit</button>
+ </Center>
+ 
+     <script>
+
+//alert(score.value);
+	
+function submit()
+     	{
+      //Declare Variables
+     	var tstScr = score.value;	//Test Score
+     	var grade;			//Grade dependent on Score
+     	var grade1;
+     	//Calculate the Grade
+     	grade=	(tstScr>=90)?"A":
+     			(tstScr>=80)?"B":
+       			(tstScr>=70)?"C":
+       			(tstScr>=60)?"D":"F";
+       			
+     	//Calculate
+     	grade1=(tstScr < 70)?"Failing":"Passing";
+     	//Output the inputs and the calculation
+     	var str="<h1>Test Score = " + tstScr + "</h1>";
+      	str += "<h1>Grade = " + grade + "</h1>";
+      	str += "<h1>Is a " + grade1 + " grade</h1>";
+      	document.write(str);
+      	}
+     </script>
+
+ </body>
+</html>/* Created in CSE HTML Validator */
+
